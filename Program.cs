@@ -1,6 +1,8 @@
 ﻿// по двум заданным числам проверять являются ли первое квадратом второго
-int A=25;
-int B=6;
+Console.WriteLine("введите первое число");
+int A=int.Parse(Console.ReadLine());
+Console.WriteLine("введите второе число");
+int B=int.Parse(Console.ReadLine());
 if (A==B * B)
 {
 Console.WriteLine("явлеется квадратом");
